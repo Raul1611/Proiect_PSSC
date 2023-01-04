@@ -20,8 +20,8 @@ namespace ProiectPSSC
 
         static async Task Start(string[] args)
         {
-            var listOfGrades = ReadListOfOrders().ToArray();
-            PayOrderCommand command = new(listOfGrades);
+            var listOfProducts = ReadListOfOrders().ToArray();
+            PayOrderCommand command = new(listOfProducts);
             PayOrderWorkflow workflow = new PayOrderWorkflow();
             var result = await workflow.ExecuteAsync(command, CheckProductExists, CheckStock, CheckAddress);
 
