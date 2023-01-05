@@ -6,7 +6,12 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="CSharp.Choices" Version="2.1.1" />
-    <PackageReference Include="LanguageExt.Core" Version="4.2.9" />
+    <PackageReference Include="CSharp.Choices" Version="2.1.1"/>
+    <PackageReference Include="LanguageExt.Core" Version="4.2.9"/>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.1">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.1"/>
   </ItemGroup>
 </Project>

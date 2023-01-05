@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Poli\\lV-SEM 1\\PSSC\\ProiectPSSC\\Proiect_v2\\ProiectPSSC\\ProiectPSSC.csproj": {}
+    "D:\\Poli\\lV-SEM 1\\PSSC\\ProiectPSSC\\Proiect_PSSC\\ProiectPSSC\\ProiectPSSC.csproj": {}
   },
   "projects": {
-    "D:\\Poli\\lV-SEM 1\\PSSC\\ProiectPSSC\\Proiect_v2\\ProiectPSSC\\ProiectPSSC.csproj": {
+    "D:\\Poli\\lV-SEM 1\\PSSC\\ProiectPSSC\\Proiect_PSSC\\ProiectPSSC\\ProiectPSSC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Poli\\lV-SEM 1\\PSSC\\ProiectPSSC\\Proiect_v2\\ProiectPSSC\\ProiectPSSC.csproj",
+        "projectUniqueName": "D:\\Poli\\lV-SEM 1\\PSSC\\ProiectPSSC\\Proiect_PSSC\\ProiectPSSC\\ProiectPSSC.csproj",
         "projectName": "ProiectPSSC",
-        "projectPath": "D:\\Poli\\lV-SEM 1\\PSSC\\ProiectPSSC\\Proiect_v2\\ProiectPSSC\\ProiectPSSC.csproj",
+        "projectPath": "D:\\Poli\\lV-SEM 1\\PSSC\\ProiectPSSC\\Proiect_PSSC\\ProiectPSSC\\ProiectPSSC.csproj",
         "packagesPath": "C:\\Users\\dumit\\.nuget\\packages\\",
-        "outputPath": "D:\\Poli\\lV-SEM 1\\PSSC\\ProiectPSSC\\Proiect_v2\\ProiectPSSC\\obj\\",
+        "outputPath": "D:\\Poli\\lV-SEM 1\\PSSC\\ProiectPSSC\\Proiect_PSSC\\ProiectPSSC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -51,6 +51,16 @@
             "LanguageExt.Core": {
               "target": "Package",
               "version": "[4.2.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.1, )"
             }
           },
           "imports": [
